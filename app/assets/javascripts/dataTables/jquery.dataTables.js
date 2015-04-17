@@ -4983,6 +4983,9 @@
 			if ( type == 'alert' ) {
 				alert( msg );
 			}
+      else if ( type == 'ignore' ) {
+        // SilencerCo ignore DT errors
+      }
 			else {
 				throw new Error(msg);
 			}
