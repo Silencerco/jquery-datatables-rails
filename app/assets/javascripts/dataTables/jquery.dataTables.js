@@ -5075,6 +5075,9 @@
 			else if ( type == 'throw' ) {
 				throw new Error(msg);
 			}
+			else if ( type == 'ignore' ) {
+				// SilencerCo ignore DT errors
+			}
 			else if ( typeof type == 'function' ) {
 				type( settings, tn, msg );
 			}
